@@ -1,0 +1,14 @@
+{
+  "name": "spacebar-escape-tests",
+  "private": true,
+  "type": "module",
+  "description": "Headless server test, economy simulation, browser runs (autopilot, real input, screenshots, frame rates)",
+  "scripts": {
+    "server": "node server.test.mjs",
+    "economy": "node economy.mjs"
+  },
+  "dependencies": {
+    "@colyseus/sdk": "^0.18.4",
+    "puppeteer-core": "^24.0.0"
+  }
+}
